@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9bf32022-2092-4723-9ad2-ee1f029c1f4c" name="Default Changelist" comment="Setup&#10;&#10;Setup the package files.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/node_int.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/node_int.rb" afterDir="false" />
+    <list default="true" id="9bf32022-2092-4723-9ad2-ee1f029c1f4c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/test/node_int_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/node_int_test.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +65,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.NodeIntTest">
+  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.test_private_methods_declared">
     <configuration name="NodeIntTest" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
       <module name="node_int" />
       <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
@@ -157,8 +155,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Test::Unit/Shoulda/Minitest.NodeIntTest" />
         <item itemvalue="Test::Unit/Shoulda/Minitest.test_private_methods_declared" />
+        <item itemvalue="Test::Unit/Shoulda/Minitest.NodeIntTest" />
         <item itemvalue="Test::Unit/Shoulda/Minitest.test_initialize_copy_declared" />
       </list>
     </recent_temporary>
@@ -174,7 +172,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583773815775</updated>
-      <workItem from="1583773823772" duration="4966000" />
+      <workItem from="1583773823772" duration="5333000" />
     </task>
     <task id="LOCAL-00001" summary="Setup&#10;&#10;Setup the package files.">
       <created>1583778648818</created>
@@ -190,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583778666653</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Typed Files&#10;&#10;All tests pass. The copy constructor declaration was untested.">
+      <created>1583783388242</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1583783388243</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
         <username>admin</username>
@@ -202,7 +207,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Setup&#10;&#10;Setup the package files." />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup&#10;&#10;Setup the package files." />
+    <MESSAGE value="Typed Files&#10;&#10;All tests pass. The copy constructor declaration was untested." />
+    <option name="LAST_COMMIT_MESSAGE" value="Typed Files&#10;&#10;All tests pass. The copy constructor declaration was untested." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -218,26 +224,26 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="637" y="233" key="#com.intellij.ide.util.MemberChooser/0.23.1680.975@0.23.1680.975" timestamp="1583713791657" />
-    <state x="344" y="90" width="1034" height="795" key="CommitChangelistDialog2" timestamp="1583779268429">
+    <state x="344" y="90" width="1034" height="795" key="CommitChangelistDialog2" timestamp="1583783387889">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="344" y="90" width="1034" height="795" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1583779268429" />
-    <state width="1413" height="271" key="GridCell.Tab.0.bottom" timestamp="1583783169769">
+    <state x="344" y="90" width="1034" height="795" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1583783387889" />
+    <state width="1413" height="271" key="GridCell.Tab.0.bottom" timestamp="1583783391313">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1413" height="271" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1583783169769" />
-    <state width="1413" height="271" key="GridCell.Tab.0.center" timestamp="1583783169768">
+    <state width="1413" height="271" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1583783391313" />
+    <state width="1413" height="271" key="GridCell.Tab.0.center" timestamp="1583783391312">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1413" height="271" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1583783169768" />
-    <state width="1413" height="271" key="GridCell.Tab.0.left" timestamp="1583783169767">
+    <state width="1413" height="271" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1583783391312" />
+    <state width="1413" height="271" key="GridCell.Tab.0.left" timestamp="1583783391312">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1413" height="271" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1583783169767" />
-    <state width="1413" height="271" key="GridCell.Tab.0.right" timestamp="1583783169769">
+    <state width="1413" height="271" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1583783391312" />
+    <state width="1413" height="271" key="GridCell.Tab.0.right" timestamp="1583783391312">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1413" height="271" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1583783169769" />
+    <state width="1413" height="271" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1583783391312" />
     <state x="233" y="109" key="SettingsEditor" timestamp="1583779301379">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -252,7 +258,7 @@
     <state x="489" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1583780558188" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/node_int@test_private_methods_declared.rcov" NAME="test_private_methods_declared Coverage Results" MODIFIED="1583783136132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="node_int" />
+    <SUITE FILE_PATH="coverage/node_int@test_private_methods_declared.rcov" NAME="test_private_methods_declared Coverage Results" MODIFIED="1583783441189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="node_int" />
     <SUITE FILE_PATH="coverage/node_int@test_initialize_copy_declared.rcov" NAME="test_initialize_copy_declared Coverage Results" MODIFIED="1583782539544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="node_int" />
     <SUITE FILE_PATH="coverage/node_int@NodeIntTest.rcov" NAME="NodeIntTest Coverage Results" MODIFIED="1583783169753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="node_int" />
   </component>

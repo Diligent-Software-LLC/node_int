@@ -90,7 +90,7 @@ class NodeIntTest < Minitest::Test
     assert_includes(p_methods, :back=)
     assert_includes(p_methods, :front=)
     assert_includes(p_methods, :data=)
-    assert_includes(p_methods, :initialize)
+    assert_includes(p_methods, :initialize_copy)
   end
 
   # teardown().
