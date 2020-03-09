@@ -8,7 +8,12 @@ Gem::Specification.new do |spec|
   spec.authors               = ["Bradley J. Tannor", "Diligent Software LLC"]
   spec.email                 = ["bradleytannor@gmail.com"]
   spec.summary               = %q{A Node abstract base class component.}
-  spec.description           = %q{A Node abstract base class component.}
+  spec.description           = %q{A Node abstract base class component.
+Declares a doubly-linked Node structure. Contains the constants and method
+signatures.
+
+Donations support continuous improvement. Make a donation at the project's
+Collective page: https://opencollective.com/node. Greatly appreciated.}
   spec.homepage              = "https://docs.diligentsoftware.org"
   spec.license               = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.6.5")
