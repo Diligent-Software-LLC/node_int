@@ -1,11 +1,27 @@
-require "test_helper"
+require 'test_helper'
 
+# node_int_test.
+# @abstract
+# Tests the node_int class.
 class NodeIntTest < Minitest::Test
-  def test_that_it_has_a_version_number
-    refute_nil ::NodeInt::VERSION
+
+  # test_version_declared().
+  # @abstract
+  # The version was declared.
+  def test_version_declared()
+    refute_nil(::NodeInt::VERSION)
   end
 
-  def test_it_does_something_useful
-    assert false
+  # setup().
+  # @abstract
+  # Set fixtures.
+  def setup()
   end
+
+  # teardown().
+  # @abstract
+  # Cleanup.
+  def teardown()
+  end
+
 end

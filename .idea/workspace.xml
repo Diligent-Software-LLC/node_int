@@ -1,36 +1,126 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9bf32022-2092-4723-9ad2-ee1f029c1f4c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/CODE_OF_CONDUCT.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Changelog.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/node_int.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/node_int.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/node_int/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/node_int/version.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_int.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/node_int.gemspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/node_int_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/node_int_test.rb" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Gem Gemfile" />
+        <option value="Gem Specification" />
+        <option value="Travis CI Configuration" />
+        <option value="Ruby Gem Class Version" />
+        <option value="Ruby Gem Class Class" />
+        <option value="Ruby Gem Test Suite" />
+        <option value="LICENSE" />
+        <option value="README" />
+        <option value="Changelog" />
+        <option value="CODE_OF_CONDUCT" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1YrK8UamLxYmAk0qFOyNB5ELcwJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.jetbrains.youtrack.notifications" value="" />
     <property name="nodejs.protractor.protractor_package" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="upsource.project.settings" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test" />
+      <recent name="$PROJECT_DIR$/lib" />
+      <recent name="$PROJECT_DIR$/lib/node_int" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="false" RAKE_SPRING_PRE_LOADER_OPTION="false" RAILS_SPRING_PRE_LOADER_OPTION="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9bf32022-2092-4723-9ad2-ee1f029c1f4c" name="Default Changelist" comment="" />
+      <created>1583773815775</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583773815775</updated>
+      <workItem from="1583773823772" duration="567000" />
+    </task>
+    <servers>
+      <YouTrack url="https://macbook-pro.local:8443">
+        <username>admin</username>
+      </YouTrack>
+    </servers>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1413" height="272" key="GridCell.Tab.0.bottom" timestamp="1583695137988">
+    <state x="424" y="175" key="#Servers" timestamp="1583774066560">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1413" height="272" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1583695137988" />
-    <state width="1413" height="272" key="GridCell.Tab.0.center" timestamp="1583695137987">
+    <state x="424" y="175" key="#Servers/0.23.1680.975@0.23.1680.975" timestamp="1583774066560" />
+    <state x="454" y="318" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1583754312765">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1413" height="272" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1583695137987" />
-    <state width="1413" height="272" key="GridCell.Tab.0.left" timestamp="1583695137986">
+    <state x="454" y="318" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.23.1680.975@0.23.1680.975" timestamp="1583754312765" />
+    <state x="637" y="233" key="#com.intellij.ide.util.MemberChooser" timestamp="1583713791657">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1413" height="272" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1583695137986" />
-    <state width="1413" height="272" key="GridCell.Tab.0.right" timestamp="1583695137988">
+    <state x="637" y="233" key="#com.intellij.ide.util.MemberChooser/0.23.1680.975@0.23.1680.975" timestamp="1583713791657" />
+    <state width="1413" height="271" key="GridCell.Tab.0.bottom" timestamp="1583713045532">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1413" height="272" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1583695137988" />
+    <state width="1413" height="271" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1583713045532" />
+    <state width="1413" height="271" key="GridCell.Tab.0.center" timestamp="1583713045531">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state width="1413" height="271" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1583713045531" />
+    <state width="1413" height="271" key="GridCell.Tab.0.left" timestamp="1583713045531">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state width="1413" height="271" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1583713045531" />
+    <state width="1413" height="271" key="GridCell.Tab.0.right" timestamp="1583713045532">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state width="1413" height="271" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1583713045532" />
+    <state x="233" y="109" key="SettingsEditor" timestamp="1583773805024">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state x="233" y="109" key="SettingsEditor/0.23.1680.975@0.23.1680.975" timestamp="1583773805024" />
+    <state x="489" y="235" width="670" height="675" key="run.anything.popup" timestamp="1583713140853">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state x="489" y="235" width="670" height="675" key="run.anything.popup/0.23.1680.975@0.23.1680.975" timestamp="1583713140853" />
   </component>
 </project>

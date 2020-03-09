@@ -1,7 +1,9 @@
+# Copyright (C) 2020 Diligent Software LLC. All rights reserved. Released 
+# under the MIT License.
 require "node_int/version"
 
-module NodeInt
-  class Error < StandardError;
-  end
-  # Your code goes here...
+# NodeInt.
+# @bastract
+# A Node abstract base class.
+class NodeInt
 end
