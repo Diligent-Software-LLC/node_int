@@ -1,4 +1,4 @@
-# node_int [![Gem Version](https://badge.fury.io/rb/$PROJECT_NAME.svg)](https://badge.fury.io/rb/node_int) ![Gem](https://img.shields.io/gem/dt/node_int) [![Build Status](https://travis-ci.com/Diligent-Software-LLC/$PROJECT_NAME.svg?branch=master)](https://travis-ci.com/Diligent-Software-LLC/node_int)
+# node_int [![Gem Version](https://badge.fury.io/rb/node_int.svg)](https://badge.fury.io/rb/node_int) ![Gem](https://img.shields.io/gem/dt/node_int) [![Build Status](https://travis-ci.com/Diligent-Software-LLC/node_int.svg?branch=master)](https://travis-ci.com/Diligent-Software-LLC/node_int)
 
 A Node abstract base class. Declares a doubly-linked Node structure. Contains 
 the constants and method signatures. 

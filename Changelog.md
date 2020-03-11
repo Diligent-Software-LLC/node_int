@@ -12,3 +12,10 @@
 
 - Workspace files.
 - Configuration files.
+
+## 0.1.1, 2020-03-11
+
+### Fixed
+
+- The overriden to_s() method was probablematic in the implementation. Using
+ default to_s().

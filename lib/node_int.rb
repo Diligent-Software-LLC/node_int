@@ -83,14 +83,6 @@ class NodeInt
   def inspect()
   end
 
-  # to_s().
-  # @abstract
-  # Node, String conversion.
-  # @return [String]
-  # self's String representation.
-  def to_s()
-  end
-
   private
 
   # back=(back).
