@@ -1,6 +1,6 @@
 # Copyright (C) 2020 Diligent Software LLC. All rights reserved. Released 
 # under the MIT License.
-require "node_int/version"
+require_relative "node_int/version"
 
 # NodeInt.
 # @bastract

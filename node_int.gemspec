@@ -1,10 +1,10 @@
-VERSION = "0.1.1"
+require_relative 'lib/node_int/version'
 
 Gem::Specification.new do |spec|
 
   # Attributes
   spec.name                  = "node_int"
-  spec.version               = VERSION
+  spec.version = NodeInt::VERSION
   spec.authors               = ["Bradley J. Tannor", "Diligent Software LLC"]
   spec.email                 = ["bradleytannor@gmail.com"]
   spec.summary               = %q{A Node abstract base class component.}

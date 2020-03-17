@@ -5,5 +5,5 @@
 # @abstract
 # A Node abstract base class.
 class NodeInt
-  VERSION = ::VERSION
+  VERSION = '0.1.2'
 end
