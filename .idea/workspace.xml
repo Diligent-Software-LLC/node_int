@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BuildServerSettings">
+    <option name="LOGIN" value="" />
+    <option name="SERVER_URL" value="http://buildserver" />
+    <option name="REMEMBER_ME" value="true" />
+    <option name="USE_IDEA_PROXY_SETTINGS" value="true" />
+    <option name="INSPECTIONS_BUILD_TYPE_IDS" />
+    <option name="DUPLICATES_BUILD_TYPE_IDS" />
+    <option name="ENABLE_SUITABLE_CONFIGURATION_CACHING" value="true" />
+    <option name="COVERAGE_SETTINGS" />
+    <option name="TEST_STATUS_ENABLED" value="true" />
+    <option name="TEST_STATUS_SHOW_SUCCESSFUL" value="false" />
+    <option name="POSTPONE_SUITABLE_CONFIGURATIONS_SEARCH" value="false" />
+    <option name="ARTIFACTS_BUILD_TYPE_IDS" />
+    <option name="PERFORM_COMMIT_IF_SUCCESSFUL" value="true" />
+    <option name="PERFORM_COMMIT_IF_NO_NEW_FAILED_TESTS" value="false" />
+    <option name="REQUEST_CONFIRMATON" value="false" />
+    <option name="PRE_TESTED_COMMIT" value="true" />
+    <option name="FILTER_BY_STATUS" value="false" />
+    <option name="FILTER_MARKED_AS_FIXED" value="false" />
+    <option name="SHOW_CLOSE_PROMPT" value="true" />
+    <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
+    <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
+    <option name="showStatusBarWidget" value="true" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9bf32022-2092-4723-9ad2-ee1f029c1f4c" name="Default Changelist" comment="">
+    <list default="true" id="9bf32022-2092-4723-9ad2-ee1f029c1f4c" name="Default Changelist" comment="Patched Load Bug&#10;&#10;Version was defined in the gemspec, and was inaccessible following deploy. All inheriting classes raise an error.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -11,6 +35,20 @@
   </component>
   <component name="CoverageViewManager">
     <option name="myElementSize" value="280" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="ExportToHTMLSettings">
     <option name="OPEN_IN_BROWSER" value="true" />
@@ -76,6 +114,7 @@
     <option name="myCommands">
       <command value="mkdir artifacts" />
       <command value="mv node_int-0.1.0.gem artifacts; mv node_int-0.1.1.gem artifacts" />
+      <command value="mv node_int-0.1.2.gem artifacts" />
     </option>
   </component>
   <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.NodeIntTest">
@@ -188,6 +227,7 @@
       <workItem from="1583773823772" duration="9042000" />
       <workItem from="1583796215236" duration="581000" />
       <workItem from="1583947574315" duration="549000" />
+      <workItem from="1584485302954" duration="567000" />
     </task>
     <task id="LOCAL-00001" summary="Setup&#10;&#10;Setup the package files.">
       <created>1583778648818</created>
@@ -224,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583947861379</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Patched Load Bug&#10;&#10;Version was defined in the gemspec, and was inaccessible following deploy. All inheriting classes raise an error.">
+      <created>1584485553291</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1584485553291</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
         <username>admin</username>
@@ -251,7 +298,8 @@
     <MESSAGE value="Setup&#10;&#10;Setup the package files." />
     <MESSAGE value="Typed Files&#10;&#10;All tests pass. The copy constructor declaration was untested." />
     <MESSAGE value="Patched Bug&#10;&#10;to_s() was problematic in implementation." />
-    <option name="LAST_COMMIT_MESSAGE" value="Patched Bug&#10;&#10;to_s() was problematic in implementation." />
+    <MESSAGE value="Patched Load Bug&#10;&#10;Version was defined in the gemspec, and was inaccessible following deploy. All inheriting classes raise an error." />
+    <option name="LAST_COMMIT_MESSAGE" value="Patched Load Bug&#10;&#10;Version was defined in the gemspec, and was inaccessible following deploy. All inheriting classes raise an error." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -267,38 +315,38 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="637" y="233" key="#com.intellij.ide.util.MemberChooser/0.23.1680.975@0.23.1680.975" timestamp="1583713791657" />
-    <state x="344" y="90" width="1034" height="795" key="CommitChangelistDialog2" timestamp="1583947860893">
+    <state x="344" y="90" width="1034" height="795" key="CommitChangelistDialog2" timestamp="1584485565152">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="344" y="90" width="1034" height="795" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1583947860893" />
-    <state width="1413" height="271" key="GridCell.Tab.0.bottom" timestamp="1584485481080">
+    <state x="344" y="90" width="1034" height="795" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1584485565152" />
+    <state width="1413" height="271" key="GridCell.Tab.0.bottom" timestamp="1584900165037">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1413" height="271" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1584485481080" />
-    <state width="1413" height="271" key="GridCell.Tab.0.center" timestamp="1584485481079">
+    <state width="1413" height="271" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1584900165037" />
+    <state width="1413" height="271" key="GridCell.Tab.0.center" timestamp="1584900165037">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1413" height="271" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1584485481079" />
-    <state width="1413" height="271" key="GridCell.Tab.0.left" timestamp="1584485481079">
+    <state width="1413" height="271" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1584900165037" />
+    <state width="1413" height="271" key="GridCell.Tab.0.left" timestamp="1584900165036">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1413" height="271" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1584485481079" />
-    <state width="1413" height="271" key="GridCell.Tab.0.right" timestamp="1584485481080">
+    <state width="1413" height="271" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1584900165036" />
+    <state width="1413" height="271" key="GridCell.Tab.0.right" timestamp="1584900165037">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1413" height="271" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1584485481080" />
+    <state width="1413" height="271" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1584900165037" />
     <state x="233" y="109" key="SettingsEditor" timestamp="1583779301379">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="233" y="109" key="SettingsEditor/0.23.1680.975@0.23.1680.975" timestamp="1583779301379" />
-    <state x="424" y="250" key="Vcs.Push.Dialog.v2" timestamp="1583947969825">
+    <state x="424" y="250" key="Vcs.Push.Dialog.v2" timestamp="1584485690439">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="424" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1583947969825" />
-    <state x="489" y="235" width="670" height="675" key="run.anything.popup" timestamp="1583948060295">
+    <state x="424" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1584485690439" />
+    <state x="489" y="235" width="670" height="675" key="run.anything.popup" timestamp="1584485857390">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="489" y="235" width="670" height="675" key="run.anything.popup/0.23.1680.975@0.23.1680.975" timestamp="1583948060295" />
+    <state x="489" y="235" width="670" height="675" key="run.anything.popup/0.23.1680.975@0.23.1680.975" timestamp="1584485857390" />
     <state x="489" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1583780558188">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -307,6 +355,6 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/node_int@test_private_methods_declared.rcov" NAME="test_private_methods_declared Coverage Results" MODIFIED="1583783441189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="node_int" />
     <SUITE FILE_PATH="coverage/node_int@test_initialize_copy_declared.rcov" NAME="test_initialize_copy_declared Coverage Results" MODIFIED="1583782539544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="node_int" />
-    <SUITE FILE_PATH="coverage/node_int@NodeIntTest.rcov" NAME="NodeIntTest Coverage Results" MODIFIED="1584485476154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="node_int" />
+    <SUITE FILE_PATH="coverage/node_int@NodeIntTest.rcov" NAME="NodeIntTest Coverage Results" MODIFIED="1584900011029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="node_int" />
   </component>
 </project>

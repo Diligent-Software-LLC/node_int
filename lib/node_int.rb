@@ -107,12 +107,4 @@ class NodeInt
   def data=(data)
   end
 
-  # initialize_copy().
-  # @abstract
-  # Copy constructor.
-  # @return [Node] copy
-  # A self copy. The object and attribute references differ.
-  def initialize_copy()
-  end
-
 end
