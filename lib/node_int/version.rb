@@ -3,7 +3,15 @@
 
 # NodeInt.
 # @abstract
-# A Node abstract base class.
+# @class_description
+#   A Node abstract base class.
+# @attr back [Node]
+#   A back node.
+# @attr data [DataType]
+#   Any DataType instance. Refer the Data Library Homepage's
+#   {https://docs.diligentsoftware.org/data#data-types Data Types} section.
+# @attr front [Node]
+#   A front node.
 class NodeInt
-  VERSION = '0.1.3'
+  VERSION = '1.0.0'.freeze()
 end

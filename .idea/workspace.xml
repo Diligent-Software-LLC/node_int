@@ -23,10 +23,22 @@
     <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
     <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
     <option name="showStatusBarWidget" value="true" />
+    <treeState key="project">
+      <selectedPath>
+        <pathElement>
+          <option name="myNodeId" value="helperText" />
+          <option name="myNodeType" value="jetbrains.buildServer.tree.descriptors.LinkedTextDescriptor" />
+        </pathElement>
+      </selectedPath>
+    </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9bf32022-2092-4723-9ad2-ee1f029c1f4c" name="Default Changelist" comment="Patched Load Bug&#10;&#10;Version was defined in the gemspec, and was inaccessible following deploy. All inheriting classes raise an error.">
+    <list default="true" id="9bf32022-2092-4723-9ad2-ee1f029c1f4c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.rakeTasks" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/node_int/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/node_int/version.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_int.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/node_int.gemspec" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,6 +116,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/artifacts" />
       <recent name="$PROJECT_DIR$/test" />
       <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$/lib/node_int" />
@@ -228,6 +241,8 @@
       <workItem from="1583796215236" duration="581000" />
       <workItem from="1583947574315" duration="549000" />
       <workItem from="1584485302954" duration="567000" />
+      <workItem from="1584899959477" duration="423000" />
+      <workItem from="1586523209524" duration="1438000" />
     </task>
     <task id="LOCAL-00001" summary="Setup&#10;&#10;Setup the package files.">
       <created>1583778648818</created>
@@ -271,9 +286,17 @@
       <option name="project" value="LOCAL" />
       <updated>1584485553291</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Patched Copying Bug&#10;&#10;The private initialize_copy method was interfering with the super method and the implementation.">
+      <created>1584900204955</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1584900204956</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
+        <option name="defaultSearch" value="project: Node Subsystem:{ No Subsystem} Component: Interface #Setup " />
         <username>admin</username>
       </YouTrack>
     </servers>
@@ -299,7 +322,8 @@
     <MESSAGE value="Typed Files&#10;&#10;All tests pass. The copy constructor declaration was untested." />
     <MESSAGE value="Patched Bug&#10;&#10;to_s() was problematic in implementation." />
     <MESSAGE value="Patched Load Bug&#10;&#10;Version was defined in the gemspec, and was inaccessible following deploy. All inheriting classes raise an error." />
-    <option name="LAST_COMMIT_MESSAGE" value="Patched Load Bug&#10;&#10;Version was defined in the gemspec, and was inaccessible following deploy. All inheriting classes raise an error." />
+    <MESSAGE value="Patched Copying Bug&#10;&#10;The private initialize_copy method was interfering with the super method and the implementation." />
+    <option name="LAST_COMMIT_MESSAGE" value="Patched Copying Bug&#10;&#10;The private initialize_copy method was interfering with the super method and the implementation." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -315,34 +339,34 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="637" y="233" key="#com.intellij.ide.util.MemberChooser/0.23.1680.975@0.23.1680.975" timestamp="1583713791657" />
-    <state x="344" y="90" width="1034" height="795" key="CommitChangelistDialog2" timestamp="1584485565152">
+    <state x="344" y="90" width="1034" height="795" key="CommitChangelistDialog2" timestamp="1584900204608">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="344" y="90" width="1034" height="795" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1584485565152" />
-    <state width="1413" height="271" key="GridCell.Tab.0.bottom" timestamp="1584900165037">
+    <state x="344" y="90" width="1034" height="795" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1584900204608" />
+    <state width="1413" height="271" key="GridCell.Tab.0.bottom" timestamp="1584900266564">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1413" height="271" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1584900165037" />
-    <state width="1413" height="271" key="GridCell.Tab.0.center" timestamp="1584900165037">
+    <state width="1413" height="271" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1584900266564" />
+    <state width="1413" height="271" key="GridCell.Tab.0.center" timestamp="1584900266563">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1413" height="271" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1584900165037" />
-    <state width="1413" height="271" key="GridCell.Tab.0.left" timestamp="1584900165036">
+    <state width="1413" height="271" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1584900266563" />
+    <state width="1413" height="271" key="GridCell.Tab.0.left" timestamp="1584900266561">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1413" height="271" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1584900165036" />
-    <state width="1413" height="271" key="GridCell.Tab.0.right" timestamp="1584900165037">
+    <state width="1413" height="271" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1584900266561" />
+    <state width="1413" height="271" key="GridCell.Tab.0.right" timestamp="1584900266563">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1413" height="271" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1584900165037" />
+    <state width="1413" height="271" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1584900266563" />
     <state x="233" y="109" key="SettingsEditor" timestamp="1583779301379">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="233" y="109" key="SettingsEditor/0.23.1680.975@0.23.1680.975" timestamp="1583779301379" />
-    <state x="424" y="250" key="Vcs.Push.Dialog.v2" timestamp="1584485690439">
+    <state x="424" y="250" key="Vcs.Push.Dialog.v2" timestamp="1584900294019">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="424" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1584485690439" />
+    <state x="424" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1584900294019" />
     <state x="489" y="235" width="670" height="675" key="run.anything.popup" timestamp="1584485857390">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
