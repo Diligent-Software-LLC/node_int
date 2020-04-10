@@ -23,6 +23,14 @@
     <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
     <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
     <option name="showStatusBarWidget" value="true" />
+    <treeState key="changes">
+      <selectedPath>
+        <pathElement>
+          <option name="myNodeId" value="helperText" />
+          <option name="myNodeType" value="jetbrains.buildServer.tree.descriptors.LinkedTextDescriptor" />
+        </pathElement>
+      </selectedPath>
+    </treeState>
     <treeState key="project">
       <selectedPath>
         <pathElement>
@@ -36,9 +44,13 @@
     <list default="true" id="9bf32022-2092-4723-9ad2-ee1f029c1f4c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.rakeTasks" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/node_int.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/node_int.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/node_int/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/node_int/version.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_int.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/node_int.gemspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/node_int_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/node_int_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -242,7 +254,7 @@
       <workItem from="1583947574315" duration="549000" />
       <workItem from="1584485302954" duration="567000" />
       <workItem from="1584899959477" duration="423000" />
-      <workItem from="1586523209524" duration="1438000" />
+      <workItem from="1586523209524" duration="5511000" />
     </task>
     <task id="LOCAL-00001" summary="Setup&#10;&#10;Setup the package files.">
       <created>1583778648818</created>
@@ -293,10 +305,17 @@
       <option name="project" value="LOCAL" />
       <updated>1584900204956</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Setup Complete&#10;&#10;Added version.rb YARDocumentation. Rewrote Gem Specification.">
+      <created>1586525809928</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1586525809928</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
-        <option name="defaultSearch" value="project: Node Subsystem:{ No Subsystem} Component: Interface #Setup " />
+        <option name="defaultSearch" value="project: Node Subsystem:{ No Subsystem} Component: Interface #Development " />
         <username>admin</username>
       </YouTrack>
     </servers>
@@ -323,7 +342,8 @@
     <MESSAGE value="Patched Bug&#10;&#10;to_s() was problematic in implementation." />
     <MESSAGE value="Patched Load Bug&#10;&#10;Version was defined in the gemspec, and was inaccessible following deploy. All inheriting classes raise an error." />
     <MESSAGE value="Patched Copying Bug&#10;&#10;The private initialize_copy method was interfering with the super method and the implementation." />
-    <option name="LAST_COMMIT_MESSAGE" value="Patched Copying Bug&#10;&#10;The private initialize_copy method was interfering with the super method and the implementation." />
+    <MESSAGE value="Setup Complete&#10;&#10;Added version.rb YARDocumentation. Rewrote Gem Specification." />
+    <option name="LAST_COMMIT_MESSAGE" value="Setup Complete&#10;&#10;Added version.rb YARDocumentation. Rewrote Gem Specification." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -339,26 +359,26 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="637" y="233" key="#com.intellij.ide.util.MemberChooser/0.23.1680.975@0.23.1680.975" timestamp="1583713791657" />
-    <state x="344" y="90" width="1034" height="795" key="CommitChangelistDialog2" timestamp="1584900204608">
+    <state x="96" y="90" width="1462" height="795" key="CommitChangelistDialog2" timestamp="1586525809132">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="344" y="90" width="1034" height="795" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1584900204608" />
-    <state width="1413" height="271" key="GridCell.Tab.0.bottom" timestamp="1584900266564">
+    <state x="96" y="90" width="1462" height="795" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1586525809132" />
+    <state width="1549" height="271" key="GridCell.Tab.0.bottom" timestamp="1586529786619">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1413" height="271" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1584900266564" />
-    <state width="1413" height="271" key="GridCell.Tab.0.center" timestamp="1584900266563">
+    <state width="1549" height="271" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1586529786619" />
+    <state width="1549" height="271" key="GridCell.Tab.0.center" timestamp="1586529786618">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1413" height="271" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1584900266563" />
-    <state width="1413" height="271" key="GridCell.Tab.0.left" timestamp="1584900266561">
+    <state width="1549" height="271" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1586529786618" />
+    <state width="1549" height="271" key="GridCell.Tab.0.left" timestamp="1586529786618">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1413" height="271" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1584900266561" />
-    <state width="1413" height="271" key="GridCell.Tab.0.right" timestamp="1584900266563">
+    <state width="1549" height="271" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1586529786618" />
+    <state width="1549" height="271" key="GridCell.Tab.0.right" timestamp="1586529786618">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1413" height="271" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1584900266563" />
+    <state width="1549" height="271" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1586529786618" />
     <state x="233" y="109" key="SettingsEditor" timestamp="1583779301379">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -367,18 +387,22 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="424" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1584900294019" />
+    <state x="423" y="235" width="816" height="550" key="find.popup" timestamp="1586529361172">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state x="423" y="235" width="816" height="550" key="find.popup/0.23.1680.975@0.23.1680.975" timestamp="1586529361172" />
     <state x="489" y="235" width="670" height="675" key="run.anything.popup" timestamp="1584485857390">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="489" y="235" width="670" height="675" key="run.anything.popup/0.23.1680.975@0.23.1680.975" timestamp="1584485857390" />
-    <state x="489" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1583780558188">
+    <state x="489" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1586529442937">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="489" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1583780558188" />
+    <state x="489" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1586529442937" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/node_int@test_private_methods_declared.rcov" NAME="test_private_methods_declared Coverage Results" MODIFIED="1583783441189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="node_int" />
     <SUITE FILE_PATH="coverage/node_int@test_initialize_copy_declared.rcov" NAME="test_initialize_copy_declared Coverage Results" MODIFIED="1583782539544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="node_int" />
-    <SUITE FILE_PATH="coverage/node_int@NodeIntTest.rcov" NAME="NodeIntTest Coverage Results" MODIFIED="1584900011029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="node_int" />
+    <SUITE FILE_PATH="coverage/node_int@NodeIntTest.rcov" NAME="NodeIntTest Coverage Results" MODIFIED="1586529780951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="node_int" />
   </component>
 </project>

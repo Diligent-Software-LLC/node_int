@@ -1,100 +1,77 @@
-require 'test_helper'
+require_relative 'test_helper'
 
 # node_int_test.
-# @abstract
-# Tests the node_int class.
+# @class_description
+#   Tests the Node interface.
 class NodeIntTest < Minitest::Test
 
+  # Constants.
+  CLASS = NodeInt
+
+  # test_conf_doc_f_ex().
+  # @description
+  #  The .travis.yml, CODE_OF_CONDUCT.md, Gemfile, LICENSE.txt, README.md,
+  #  and .yardopts files exist.
+  def test_conf_doc_f_ex()
+
+    assert_path_exists('.travis.yml')
+    assert_path_exists('CODE_OF_CONDUCT.md')
+    assert_path_exists('Gemfile')
+    assert_path_exists('LICENSE.txt')
+    assert_path_exists('README.md')
+    assert_path_exists('.yardopts')
+
+  end
+
   # test_version_declared().
-  # @abstract
-  # The version was declared.
+  # @description
+  #   The version was declared.
   def test_version_declared()
-    refute_nil(::NodeInt::VERSION)
+    refute_nil(CLASS::VERSION)
   end
 
   # setup().
-  # @abstract
-  # Set fixtures.
+  # @description
+  #   Set fixtures.
   def setup()
-    @plain_instance = NodeInt.new()
+    @plain_instance = CLASS.new()
   end
 
-  # test_data_getter_declared().
-  # @abstract
-  # The data attribute getter was declared.
-  def test_data_getter_declared()
-    assert_respond_to(@plain_instance, 'data')
-  end
+  # test_methods_dec().
+  # @description
+  #   clone_df, substitute, data, back, front, type, ==, ===, and inspect
+  #   method identifiers were declared.
+  def test_methods_dec()
 
-  # test_equality_operator_declared().
-  # @abstract
-  # The equality operator was declared.
-  def test_equality_operator_declared()
-    assert_respond_to(@plain_instance, '==')
-  end
-
-  # test_insepct_declared().
-  # @abstract
-  # The inspect method was declared.
-  def test_inspect_declared()
-    assert_respond_to(@plain_instance, 'inspect')
-  end
-
-  # test_type_getter_declared().
-  # @abstract
-  # The type attribute getter method was declared.
-  def test_type_getter_declared()
-    assert_respond_to(@plain_instance, 'type')
-  end
-
-  # test_back_getter_declared().
-  # @abstract
-  # The back getter method was declared.
-  def test_back_getter_declared()
-    assert_respond_to(@plain_instance, 'back')
-  end
-
-  # test_front_getter_declared().
-  # @abstract
-  # The front attribute getter method was declared.
-  def test_front_getter_declared()
-    assert_respond_to(@plain_instance, 'front')
-  end
-
-  # test_caseeqop_declared().
-  # @abstract
-  # The case equality operator was declared.
-  def test_caseeqop_declared()
-    assert_respond_to(@plain_instance, '===')
-  end
-
-  # test_substitute_declared().
-  # @abstract
-  # The assignment method was declared.
-  def test_substitute_declared()
+    assert_respond_to(@plain_instance, 'clone_df')
     assert_respond_to(@plain_instance, 'substitute')
+    assert_respond_to(@plain_instance, 'data')
+    assert_respond_to(@plain_instance, 'back')
+    assert_respond_to(@plain_instance, 'front')
+    assert_respond_to(@plain_instance, 'type')
+    assert_respond_to(@plain_instance, '==')
+    assert_respond_to(@plain_instance, '===')
+    assert_respond_to(@plain_instance, 'inspect')
+
   end
 
-  # test_string_con_declared().
-  # @abstract
-  # The string conversion method was declared.
-  def test_string_con_declared()
-    assert_respond_to(@plain_instance, 'to_s')
-  end
-
-  # test_private_methods_declared().
-  # @abstract
-  # The private methods were declared.
+  # test_priv_m_dec().
+  # @description
+  #   The private method identifiers initialize, back=, front=, and data= were
+  #   declared.
   def test_private_methods_declared()
+
     p_methods = @plain_instance.private_methods(all = false)
+    assert_includes(p_methods, :initialize)
     assert_includes(p_methods, :back=)
     assert_includes(p_methods, :front=)
     assert_includes(p_methods, :data=)
+
   end
 
   # teardown().
-  # @abstract
-  # Cleanup.
+  # @description
+  #   Cleanup.
   def teardown()
   end
 

@@ -1,110 +1,155 @@
-# Copyright (C) 2020 Diligent Software LLC. All rights reserved. Released 
-# under the MIT License.
+# Copyright (C) 2020 Diligent Software LLC. All rights reserved. Released
+# under the GNU General Public License, Version 3. Refer LICENSE.txt.
+
 require_relative "node_int/version"
 
 # NodeInt.
-# @bastract
-# A Node abstract base class.
+# @abstract
+# @class_description
+#   A Node abstract base class.
+# @attr back [Node]
+#   A back node.
+# @attr data [DataType]
+#   Any DataType instance. Refer the Data Library Homepage's
+#   {https://docs.diligentsoftware.org/data#data-types Data Types} section.
+# @attr front [Node]
+#   A front node.
 class NodeInt
 
-  STRUCTURE = {back: nil, data: nil, front: nil}.freeze()
-
-  # initialize(back = nil, data = nil, front = nil).
-  # @abstract
-  # Constructor. Instantiates a node.
-  def initialize(back = nil, data = nil, front = nil)
+  # initialize(b_n = nil, dti = nil, f_n = nil).
+  # @description
+  #   Initializes a node instance.
+  # @param b_n [Node]
+  #   The back node assignment.
+  # @param dti [DataType]
+  #   Any DataType instance. Refer the Data Library Homepage's
+  #   {https://docs.diligentsoftware.org/data#data-types Data Types} section.
+  # @param f_n [Node]
+  #   The front node assignment.
+  # @return [Node]
+  #   A Node instance.
+  def initialize(b_n = nil, dti = nil, f_n = nil)
   end
 
-  # copy_constructor().
-  # @abstract
-  # Copy constructor.
-  def copy_constructor()
+  # clone_df()
+  # @description
+  #   Clones. The cloned attributes are frozen.
+  # @return [Node]
+  #   A cloned Node. The return is an equivalent node, and not an identical
+  #   node. Mutating the attributes' references raises a FrozenError.
+  def clone_df()
   end
 
-  # substitute(rhs).
-  # @abstract
-  # Substitutes the rhs Node's attribute references.
-  def substitute(rhs)
+  # substitute(rhs = nil).
+  # @description
+  #   Substitutes the argument's attribute references.
+  # @param rhs [Node]
+  #   The substitution node.
+  # @return [NilClass]
+  #   nil.
+  # @raise [NodeError]
+  #   In the case the argument's type is anything other than a DataType.
+  def substitute(rhs = nil)
   end
 
   # data().
-  # @abstract
-  # Getter. Gets the data.
-  # @return [] the node's data attribute.
+  # @description
+  #   Gets the data.
+  # @return [DataType]
+  #   The node's data, frozen.
   def data()
   end
 
   # back().
-  # @abstract
-  # Getter. Gets the back node.
-  # @return [Node] back
-  # The preceding node.
+  # @description
+  #   Gets the back node.
+  # @return back [Node]
+  #   The back node, frozen.
   def back()
   end
 
   # front().
-  # @abstract
-  # Getter. Gets the front node.
-  # @return [Node] front
-  # The leading node.
+  # @description
+  #   Gets the front node.
+  # @return front [Node]
+  #   The front node, frozen.
   def front()
   end
 
   # type().
-  # @abstract
-  # Getter. Gets the data's type.
+  # @description
+  #   Gets the data's type.
+  # @return [Class]
+  #   The instance's type.
   def type()
   end
 
-  # ==(rhs).
-  # @abstract
-  # Attribute equality operator.
-  # @param [Node] rhs
-  # A comparison Node instance.
+  # ==(rhs = nil).
+  # @description
+  #   Attribute equality operator.
+  # @param rhs [Node]
+  #   A comparison Node instance.
   # @return [TrueClass, FalseClass]
-  # True in the case the lhs and the rhs's attribute values are equal, and
-  # false otherwise.
-  def ==(rhs)
+  #   True in the case the lhs and the rhs's attributes refer identical
+  #   instances, and false otherwise.
+  def ==(rhs = nil)
   end
 
-  # ===(rhs).
-  # @abstract
-  # Case equality operator.
-  # @param [Node] rhs
-  # A comparing Node instance.
+  # ===(rhs = nil).
+  # @descriptioin
+  #   Identity comparison operator.
+  # @param rhs [Node]
+  #   A comparison Node instance.
   # @return [TrueClass, FalseClass]
-  # True in the case the lhs and rhs objects refer the same object.
-  def ===(rhs)
+  #   True in the case the lhs and rhs instances refer the same object.
+  def ===(rhs = nil)
   end
 
   # inspect().
-  # @abstract
-  # Returns a node representation string.
+  # @description
+  #   Diagrammatically represents the node.
+  # @return [String]
+  #   A diagram.
   def inspect()
   end
 
   private
 
-  # back=(back).
-  # @abstract
-  # Setter. Sets the preceding node.
-  def back=(back)
+  # back=(n = nil).
+  # @description
+  #   Sets the back node.
+  # @param n [Node]
+  #   The instance assignment.
+  # @return [Node]
+  #   The argument.
+  # @raise [NodeError]
+  #   In the case the argument is any class instance other than Node.
+  def back=(n = nil)
   end
 
-  # front=(front).
-  # @abstract
-  # Setter. Sets the front node.
-  # @param [Node] front
-  # The object becoming the front node.
-  def front=(front)
+  # front=(n = nil).
+  # @description
+  #   Sets the front node.
+  # @param n [Node]
+  #   The instance assignment.
+  # @return [Node]
+  #   The argument.
+  # @raise [NodeError]
+  #   In the case the argument is any class instance other than Node.
+  def front=(n = nil)
   end
 
-  # data=(data).
-  # @abstract
-  # Setter. Sets the data attribute.
-  # @param [Object] data
-  # The node's data.
-  def data=(data)
+  # data=(dti = nil).
+  # @description
+  #   Sets the data attribute.
+  # @param dti [DataType]
+  #   The assignment instance.
+  # @return [DataType]
+  #   The argument.
+  # @raise [DataError]
+  #   In the case the argument is any class instance other than a DataType
+  #   instance.
+  def data=(dti = nil)
   end
 
 end
