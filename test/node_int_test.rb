@@ -10,8 +10,8 @@ class NodeIntTest < Minitest::Test
 
   # test_conf_doc_f_ex().
   # @description
-  #  The .travis.yml, CODE_OF_CONDUCT.md, Gemfile, LICENSE.txt, README.md,
-  #  and .yardopts files exist.
+  #   The .travis.yml, CODE_OF_CONDUCT.md, Gemfile, LICENSE.txt, README.md,
+  #   and .yardopts files exist.
   def test_conf_doc_f_ex()
 
     assert_path_exists('.travis.yml')
@@ -34,38 +34,55 @@ class NodeIntTest < Minitest::Test
   # @description
   #   Set fixtures.
   def setup()
-    @plain_instance = CLASS.new()
+
+    @priv_i_m = CLASS.private_instance_methods(all = false)
+    @prot_i_m = CLASS.protected_instance_methods(all = false)
+    @pub_i_m  = CLASS.public_instance_methods(all = false)
+
   end
 
-  # test_methods_dec().
+  # test_pub_m_dec().
   # @description
-  #   clone_df, substitute, data, back, front, type, ==, ===, and inspect
+  #   clone_df, substitute, d, b, f, type, ==, ===, and inspect
   #   method identifiers were declared.
-  def test_methods_dec()
+  def test_pub_m_dec()
 
-    assert_respond_to(@plain_instance, 'clone_df')
-    assert_respond_to(@plain_instance, 'substitute')
-    assert_respond_to(@plain_instance, 'data')
-    assert_respond_to(@plain_instance, 'back')
-    assert_respond_to(@plain_instance, 'front')
-    assert_respond_to(@plain_instance, 'type')
-    assert_respond_to(@plain_instance, '==')
-    assert_respond_to(@plain_instance, '===')
-    assert_respond_to(@plain_instance, 'inspect')
+    assert_includes(@pub_i_m, :clone_df)
+    assert_includes(@pub_i_m, :substitute)
+    assert_includes(@pub_i_m, :d)
+    assert_includes(@pub_i_m, :b)
+    assert_includes(@pub_i_m, :f)
+    assert_includes(@pub_i_m, :type)
+    assert_includes(@pub_i_m, :==)
+    assert_includes(@pub_i_m, :===)
+    assert_includes(@pub_i_m, :inspect)
+
+  end
+
+  # test_prot_m_dec().
+  # @description
+  #   back_ref, data_ref, and front_ref were declared.
+  def test_prot_m_dec()
+
+    assert_includes(@prot_i_m, :back_ref)
+    assert_includes(@prot_i_m, :data_ref)
+    assert_includes(@prot_i_m, :front_ref)
 
   end
 
   # test_priv_m_dec().
   # @description
-  #   The private method identifiers initialize, back=, front=, and data= were
-  #   declared.
-  def test_private_methods_declared()
+  #   The private method identifiers initialize, back, data, front,
+  #   back=, front=, and data= were declared.
+  def test_priv_m_dec()
 
-    p_methods = @plain_instance.private_methods(all = false)
-    assert_includes(p_methods, :initialize)
-    assert_includes(p_methods, :back=)
-    assert_includes(p_methods, :front=)
-    assert_includes(p_methods, :data=)
+    assert_includes(@priv_i_m, :initialize)
+    assert_includes(@priv_i_m, :back)
+    assert_includes(@priv_i_m, :data)
+    assert_includes(@priv_i_m, :front)
+    assert_includes(@priv_i_m, :back=)
+    assert_includes(@priv_i_m, :front=)
+    assert_includes(@priv_i_m, :data=)
 
   end
 

@@ -20,9 +20,11 @@
     <option name="FILTER_BY_STATUS" value="false" />
     <option name="FILTER_MARKED_AS_FIXED" value="false" />
     <option name="SHOW_CLOSE_PROMPT" value="true" />
-    <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="1" />
+    <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
     <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
     <option name="showStatusBarWidget" value="true" />
+    <SELECTED_PROJECT id="project15" />
+    <SELECTED_TYPE id="bt17" />
     <treeState key="changes">
       <selectedPath>
         <pathElement>
@@ -39,12 +41,48 @@
         </pathElement>
       </selectedPath>
     </treeState>
+    <treeState key="selectConfigurations.run">
+      <expandedPath>
+        <pathElement>
+          <option name="myNodeId" value="project5" />
+          <option name="myNodeType" value="jetbrains.buildServer.tree.descriptors.ProjectDescriptor" />
+        </pathElement>
+      </expandedPath>
+      <expandedPath>
+        <pathElement>
+          <option name="myNodeId" value="project5" />
+          <option name="myNodeType" value="jetbrains.buildServer.tree.descriptors.ProjectDescriptor" />
+        </pathElement>
+        <pathElement>
+          <option name="myNodeId" value="project15" />
+          <option name="myNodeType" value="jetbrains.buildServer.tree.descriptors.ProjectDescriptor" />
+        </pathElement>
+      </expandedPath>
+      <selectedPath>
+        <pathElement>
+          <option name="myNodeId" value="project5" />
+          <option name="myNodeType" value="jetbrains.buildServer.tree.descriptors.ProjectDescriptor" />
+        </pathElement>
+        <pathElement>
+          <option name="myNodeId" value="project15" />
+          <option name="myNodeType" value="jetbrains.buildServer.tree.descriptors.ProjectDescriptor" />
+        </pathElement>
+        <pathElement>
+          <option name="myNodeId" value="bt17" />
+          <option name="myNodeType" value="jetbrains.buildServer.tree.descriptors.BuildTypeDescriptor" />
+        </pathElement>
+      </selectedPath>
+    </treeState>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9bf32022-2092-4723-9ad2-ee1f029c1f4c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.rakeTasks" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/node_int.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/node_int.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/node_int/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/node_int/version.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_int.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/node_int.gemspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/node_int.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/node_int.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/node_int_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/node_int_test.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,15 +262,49 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
       <method v="2" />
     </configuration>
+    <configuration name="test_pub_m_dec" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
+      <module name="node_int" />
+      <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Ilib:test" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/node_int_test.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="test_pub_m_dec" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_METHOD" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Test::Unit/Shoulda/Minitest.NodeIntTest" />
+        <item itemvalue="Test::Unit/Shoulda/Minitest.test_pub_m_dec" />
         <item itemvalue="Test::Unit/Shoulda/Minitest.test_private_methods_declared" />
         <item itemvalue="Test::Unit/Shoulda/Minitest.test_initialize_copy_declared" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="false" RAKE_SPRING_PRE_LOADER_OPTION="false" RAILS_SPRING_PRE_LOADER_OPTION="false" />
+  <component name="SuitableConfigurationIdsCache">
+    <FIRST_MONTH_REVISION values="5a9d3613136ae288abf13318f9fc27aab8825091" />
+    <SUITABLE_CONFIGURATIONS_IDS values="bt19;bt6;bt17;bt18" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -249,7 +321,7 @@
       <workItem from="1584485302954" duration="567000" />
       <workItem from="1584899959477" duration="423000" />
       <workItem from="1586523209524" duration="7756000" />
-      <workItem from="1586969862111" duration="358000" />
+      <workItem from="1586969862111" duration="2443000" />
     </task>
     <task id="LOCAL-00001" summary="Setup&#10;&#10;Setup the package files.">
       <created>1583778648818</created>
@@ -321,10 +393,31 @@
       <option name="project" value="LOCAL" />
       <updated>1586535138852</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Setup Complete&#10;&#10;Bumped Major Version. Fixed Changelog URI link.">
+      <created>1586970271076</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1586970271076</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Setup Complete&#10;&#10;Bumped Major Version. Fixed Changelog URI link.">
+      <created>1586971658281</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1586971658281</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Setup Complete&#10;&#10;Bumped Major Version. Fixed Changelog URI link.">
+      <created>1586972022495</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1586972022495</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
-        <option name="defaultSearch" value="project: Node Subsystem:{ No Subsystem} Component: Interface #{Setup } Sprints: 3 " />
+        <option name="defaultSearch" value="project: Node Subsystem:{ No Subsystem} Component: Interface #{Prepare Deployment} Sprints: 3 " />
         <username>admin</username>
       </YouTrack>
     </servers>
@@ -354,7 +447,8 @@
     <MESSAGE value="Setup Complete&#10;&#10;Added version.rb YARDocumentation. Rewrote Gem Specification." />
     <MESSAGE value="Development Complete&#10;&#10;Edited copyright statements. Added YARDocumentation. Edited method signatures. Removed the STRUCTURE constant. Removed the copy_constructor() signature. Added the clone_df() method signature. Fixed 'require' statements. Consolidated tests. Minor test editions. Added the GNU General Public License, Version 3. Edited README.md. Fixed README.md's Installation and Documentation links. Added a .yardopts file." />
     <MESSAGE value="Prepare Deployment&#10;&#10;Updated Changelog.md." />
-    <option name="LAST_COMMIT_MESSAGE" value="Prepare Deployment&#10;&#10;Updated Changelog.md." />
+    <MESSAGE value="Setup Complete&#10;&#10;Bumped Major Version. Fixed Changelog URI link." />
+    <option name="LAST_COMMIT_MESSAGE" value="Setup Complete&#10;&#10;Bumped Major Version. Fixed Changelog URI link." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -370,26 +464,26 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="637" y="233" key="#com.intellij.ide.util.MemberChooser/0.23.1680.975@0.23.1680.975" timestamp="1583713791657" />
-    <state x="96" y="90" width="1462" height="795" key="CommitChangelistDialog2" timestamp="1586535138568">
+    <state x="96" y="90" width="1462" height="795" key="CommitChangelistDialog2" timestamp="1586972022559">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="96" y="90" width="1462" height="795" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1586535138568" />
-    <state width="1549" height="271" key="GridCell.Tab.0.bottom" timestamp="1586535765660">
+    <state x="96" y="90" width="1462" height="795" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1586972022559" />
+    <state width="1566" height="259" key="GridCell.Tab.0.bottom" timestamp="1586972153312">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1549" height="271" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1586535765660" />
-    <state width="1549" height="271" key="GridCell.Tab.0.center" timestamp="1586535765659">
+    <state width="1566" height="259" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1586972153312" />
+    <state width="1566" height="259" key="GridCell.Tab.0.center" timestamp="1586972153311">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1549" height="271" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1586535765659" />
-    <state width="1549" height="271" key="GridCell.Tab.0.left" timestamp="1586535765659">
+    <state width="1566" height="259" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1586972153311" />
+    <state width="1566" height="259" key="GridCell.Tab.0.left" timestamp="1586972153311">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1549" height="271" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1586535765659" />
-    <state width="1549" height="271" key="GridCell.Tab.0.right" timestamp="1586535765659">
+    <state width="1566" height="259" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1586972153311" />
+    <state width="1566" height="259" key="GridCell.Tab.0.right" timestamp="1586972153312">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1549" height="271" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1586535765659" />
+    <state width="1566" height="259" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1586972153312" />
     <state x="233" y="109" key="SettingsEditor" timestamp="1586534634958">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -406,14 +500,15 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="489" y="235" width="670" height="675" key="run.anything.popup/0.23.1680.975@0.23.1680.975" timestamp="1584485857390" />
-    <state x="489" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1586970164255">
+    <state x="489" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1586972216272">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="489" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1586970164255" />
+    <state x="489" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1586972216272" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/node_int@test_private_methods_declared.rcov" NAME="test_private_methods_declared Coverage Results" MODIFIED="1583783441189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="node_int" />
     <SUITE FILE_PATH="coverage/node_int@test_initialize_copy_declared.rcov" NAME="test_initialize_copy_declared Coverage Results" MODIFIED="1583782539544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="node_int" />
-    <SUITE FILE_PATH="coverage/node_int@NodeIntTest.rcov" NAME="NodeIntTest Coverage Results" MODIFIED="1586529780951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="node_int" />
+    <SUITE FILE_PATH="coverage/node_int@NodeIntTest.rcov" NAME="NodeIntTest Coverage Results" MODIFIED="1586972146176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="node_int" />
+    <SUITE FILE_PATH="coverage/node_int@test_pub_m_dec.rcov" NAME="test_pub_m_dec Coverage Results" MODIFIED="1586971628253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="node_int" />
   </component>
 </project>

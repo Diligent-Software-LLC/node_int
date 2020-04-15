@@ -52,28 +52,28 @@ class NodeInt
   def substitute(rhs = nil)
   end
 
-  # data().
+  # b().
   # @description
-  #   Gets the data.
+  #   Gets back's reference.
+  # @return [Node, NilClass]
+  #   back's reference, frozen.
+  def b()
+  end
+
+  # d().
+  # @description
+  #   Gets data's reference.
   # @return [DataType]
-  #   The node's data, frozen.
-  def data()
+  #   data's reference, frozen.
+  def d()
   end
 
-  # back().
+  # f().
   # @description
-  #   Gets the back node.
-  # @return back [Node]
-  #   The back node, frozen.
-  def back()
-  end
-
-  # front().
-  # @description
-  #   Gets the front node.
-  # @return front [Node]
-  #   The front node, frozen.
-  def front()
+  #   Gets front's reference.
+  # @return [Node, NilClass]
+  #   front's reference, frozen.
+  def f()
   end
 
   # type().
@@ -113,7 +113,57 @@ class NodeInt
   def inspect()
   end
 
+  protected
+
+  # back_ref().
+  # @description
+  #   Gets back's reference.
+  # @return [Node, NilClass]
+  #   The reference.
+  def back_ref()
+  end
+
+  # data_ref().
+  # @description
+  #   Gets data's reference.
+  # @return [DataType]
+  #   data's reference.
+  def data_ref()
+  end
+
+  # front_ref().
+  # @description
+  #   Gets front's reference.
+  # @return [Node, NilClass]
+  #   front's reference.
+  def front_ref()
+  end
+
   private
+
+  # data().
+  # @description
+  #   Gets the data.
+  # @return [DataType]
+  #   The reference.
+  def data()
+  end
+
+  # back().
+  # @description
+  #   Gets the back node.
+  # @return back [Node]
+  #   The back reference.
+  def back()
+  end
+
+  # front().
+  # @description
+  #   Gets the front node.
+  # @return front [Node]
+  #   The front reference.
+  def front()
+  end
 
   # back=(n = nil).
   # @description
