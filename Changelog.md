@@ -1,5 +1,25 @@
 # Changelog
 
+## v2.0.0, 2020-04-15
+
+### Added
+
+- 'b', 'd', and 'f' method signatures.
+- back, data, and front protected getters.
+- 'b', 'd', and 'f' public method declaration tests.
+- 'back_ref', 'data_ref', and 'front_ref' protected method declaration tests.
+- 'back', 'data', and 'front' private method declaration tests.
+- minitest-reporters dependency.  
+
+### Edited
+
+- 'back', 'data', and 'front' methods privacy. The methods are private.
+- Factored tests.
+
+### Fixed
+
+- Changelog URI link.
+
 ## v1.0.0, 2020-04-10
 
 ### Added
