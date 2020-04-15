@@ -13,5 +13,5 @@
 # @attr front [Node]
 #   A front node.
 class NodeInt
-  VERSION = '1.0.0'.freeze()
+  VERSION = '2.0.0'.freeze()
 end
