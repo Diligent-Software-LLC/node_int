@@ -96,7 +96,7 @@ class NodeInt
   end
 
   # ===(rhs = nil).
-  # @descriptioin
+  # @description
   #   Identity comparison operator.
   # @param rhs [Node]
   #   A comparison Node instance.
