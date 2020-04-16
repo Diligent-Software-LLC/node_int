@@ -42,6 +42,4 @@ appreciated.}
   spec.add_development_dependency 'bundler', '~> 2.1.0'
   spec.add_development_dependency 'simplecov', '~> 0.17.0'
 
-  # Gem specific runtime dependencies.
-
 end
