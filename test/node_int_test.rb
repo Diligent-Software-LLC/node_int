@@ -35,18 +35,19 @@ class NodeIntTest < Minitest::Test
   #   Set fixtures.
   def setup()
 
-    @priv_i_m = CLASS.private_instance_methods(all = false)
-    @prot_i_m = CLASS.protected_instance_methods(all = false)
-    @pub_i_m  = CLASS.public_instance_methods(all = false)
+    @priv_i_m = CLASS.private_instance_methods(false)
+    @prot_i_m = CLASS.protected_instance_methods(false)
+    @pub_i_m  = CLASS.public_instance_methods(false)
 
   end
 
   # test_pub_m_dec().
   # @description
-  #   clone_df, substitute, d, b, f, type, ==, ===, and inspect
-  #   method identifiers were declared.
+  #   clone_df, attach_back, attach_front, substitute, d, b, f, type, ==, ===,
+  #   inspect, detach_back, and detach_front method identifiers were declared.
   def test_pub_m_dec()
 
+    assert_includes(@pub_i_m, :shallow_clone)
     assert_includes(@pub_i_m, :clone_df)
     assert_includes(@pub_i_m, :substitute)
     assert_includes(@pub_i_m, :d)
@@ -56,6 +57,10 @@ class NodeIntTest < Minitest::Test
     assert_includes(@pub_i_m, :==)
     assert_includes(@pub_i_m, :===)
     assert_includes(@pub_i_m, :inspect)
+    assert_includes(@pub_i_m, :attach_back)
+    assert_includes(@pub_i_m, :attach_front)
+    assert_includes(@pub_i_m, :detach_back)
+    assert_includes(@pub_i_m, :detach_front)
 
   end
 

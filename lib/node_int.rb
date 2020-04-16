@@ -31,6 +31,15 @@ class NodeInt
   def initialize(b_n = nil, dti = nil, f_n = nil)
   end
 
+  # shallow_clone().
+  # @description
+  #   Shallowly clones.
+  # @return [Node]
+  #   self's shallow clone. The DataType type instance references are
+  #   identical. All other references are different.
+  def shallow_clone()
+  end
+
   # clone_df()
   # @description
   #   Clones. The cloned attributes are frozen.
@@ -111,6 +120,42 @@ class NodeInt
   # @return [String]
   #   A diagram.
   def inspect()
+  end
+
+  # attach_back(n = nil).
+  # @description
+  #   Attaches a back Node.
+  # @param n [Node]
+  #   An attachment Node.
+  # @return [NilClass]
+  #   nil.
+  def attach_back(n = nil)
+  end
+
+  # attach_front(n = nil).
+  # @description
+  #   Attaches a front node.
+  # @param n [Node]
+  # An attachment Node.
+  # @return [NilClass]
+  #   nil.
+  def attach_front(n = nil)
+  end
+
+  # detach_back().
+  # @description
+  #   Sets back nil.
+  # @return [NilClass]
+  #   nil.
+  def detach_back()
+  end
+
+  # detach_front().
+  # @description
+  #   Sets front nil.
+  # @return [NilClass]
+  #   nil.
+  def detach_front()
   end
 
   protected
