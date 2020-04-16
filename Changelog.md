@@ -1,5 +1,19 @@
 # Changelog
 
+## v2.1.0, 2020-04-16
+
+### Added
+
+- Removed minitest-reporters dependency.
+- 'shallow_clone()', 'attach_back(n = nil)', 'attach_front(n = nil)', 
+'detach_back()', and 'detach_front()' method signatures.
+
+### Edited
+
+- Tests. Coverage includes the method signature additions.
+
+### Fixed
+
 ## v2.0.0, 2020-04-15
 
 ### Added
