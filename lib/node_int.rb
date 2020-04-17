@@ -136,7 +136,7 @@ class NodeInt
   # @description
   #   Attaches a front node.
   # @param n [Node]
-  # An attachment Node.
+  #   An attachment Node.
   # @return [NilClass]
   #   nil.
   def attach_front(n = nil)
