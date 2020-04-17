@@ -2,6 +2,7 @@
 # under the GNU General Public License, Version 3. Refer LICENSE.txt.
 
 require_relative "node_int/version"
+require_relative 'helpers/state_helper'
 
 # NodeInt.
 # @abstract
@@ -15,6 +16,8 @@ require_relative "node_int/version"
 # @attr front [Node]
 #   A front node.
 class NodeInt
+
+  include StateHelper
 
   # initialize(b_n = nil, dti = nil, f_n = nil).
   # @description
@@ -49,16 +52,16 @@ class NodeInt
   def clone_df()
   end
 
-  # substitute(rhs = nil).
+  # substitute(dti = nil).
   # @description
-  #   Substitutes the argument's attribute references.
-  # @param rhs [Node]
-  #   The substitution node.
-  # @return [NilClass]
-  #   nil.
-  # @raise [NodeError]
-  #   In the case the argument's type is anything other than a DataType.
-  def substitute(rhs = nil)
+  #   Substitutes data.
+  # @param dti [DataType]
+  #   The substitution data.
+  # @return [DataType]
+  #   The argument.
+  # @raise [DataError]
+  #   In the case the argument's type is anything other than a DataType type.
+  def substitute(dti = nil)
   end
 
   # b().
