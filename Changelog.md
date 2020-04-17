@@ -1,5 +1,17 @@
 # Changelog
 
+## v2.2.0, 2020-04-17
+
+### Added
+
+- StateHelper module. The module includes 'back_attached', 'front_attached', 
+'no_attachments', 'empty', 'base', and 'pioneer' method declarations.
+- StateHelper method declaration tests.
+
+### Edited
+
+### Fixed
+
 ## v2.1.0, 2020-04-16
 
 ### Added
