@@ -6,12 +6,12 @@
 # @class_description
 #   A Node abstract base class.
 # @attr back [Node]
-#   A back node.
+#   A 'back' reference.
 # @attr data [DataType]
-#   Any DataType instance. Refer the Data Library Homepage's
+#   Any instance. Refer the Data Library Homepage's
 #   {https://docs.diligentsoftware.org/data#data-types Data Types} section.
 # @attr front [Node]
-#   A front node.
+#   A 'front' reference.
 class NodeInt
-  VERSION = '2.2.0'.freeze()
+  VERSION = '2.3.0'.freeze()
 end
