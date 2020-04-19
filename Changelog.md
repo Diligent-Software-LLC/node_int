@@ -1,5 +1,21 @@
 # Changelog
 
+## v2.3.0, 2020-04-19
+
+### Added
+
+- 'adapt()' method signature.
+- 'adapt()' method declaration assertion.
+
+### Edited
+
+- version.rb YARDocumentation.
+- bundler and simplecov dependency statements. Depends on 'bundler' v2.1 and
+ 'simplecov' v0.
+- node_int.rb YARDocumentation.
+
+### Fixed
+
 ## v2.2.0, 2020-04-17
 
 ### Added
