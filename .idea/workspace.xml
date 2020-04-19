@@ -77,6 +77,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9bf32022-2092-4723-9ad2-ee1f029c1f4c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/node_int.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/node_int.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/node_int_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/node_int_test.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +86,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="349" />
+    <option name="myElementSize" value="345" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -172,7 +174,7 @@
       <command value="touch test/helpers/state_helper_test.rb" />
     </option>
   </component>
-  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.All tests in test: node_int">
+  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.NodeIntTest">
     <configuration name="All tests in test: node_int" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
       <module name="node_int" />
       <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
@@ -320,9 +322,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Test::Unit/Shoulda/Minitest.NodeIntTest" />
         <item itemvalue="Test::Unit/Shoulda/Minitest.All tests in test: node_int" />
         <item itemvalue="Test::Unit/Shoulda/Minitest.StateHelperTest" />
-        <item itemvalue="Test::Unit/Shoulda/Minitest.NodeIntTest" />
         <item itemvalue="Test::Unit/Shoulda/Minitest.test_pub_m_dec" />
         <item itemvalue="Test::Unit/Shoulda/Minitest.test_private_methods_declared" />
       </list>
@@ -352,7 +354,7 @@
       <workItem from="1586969862111" duration="4388000" />
       <workItem from="1587062584941" duration="3597000" />
       <workItem from="1587147944277" duration="4506000" />
-      <workItem from="1587336322713" duration="250000" />
+      <workItem from="1587336322713" duration="2157000" />
     </task>
     <task id="LOCAL-00001" summary="Setup&#10;&#10;Setup the package files.">
       <created>1583778648818</created>
@@ -529,10 +531,17 @@
       <option name="project" value="LOCAL" />
       <updated>1587153802464</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Setup Complete&#10;&#10;Updated version.rb YARDocumentation. Edited bundler and simplecov dependency statements. Depends on 'bundler' v2.1 and 'simplecov' v0.">
+      <created>1587336954403</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1587336954404</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
-        <option name="defaultSearch" value="project: Node Subsystem:{ No Subsystem} Component: Interface #{Setup } Sprints: 7" />
+        <option name="defaultSearch" value="project: Node Subsystem:{ No Subsystem} Component: Interface #{Development} Sprints: 7" />
         <username>admin</username>
       </YouTrack>
     </servers>
@@ -570,7 +579,8 @@
     <MESSAGE value="Setup Complete&#10;&#10;Bumped version." />
     <MESSAGE value="Development Complete&#10;&#10;'required' and included StateHelper. Added a StateHelper module. Added StateHelper method declaration tests." />
     <MESSAGE value="Prepare Deployment&#10;&#10;Updated Changelog.md. Edited travis.yml configuration. No longer deploying from Travis CI." />
-    <option name="LAST_COMMIT_MESSAGE" value="Prepare Deployment&#10;&#10;Updated Changelog.md. Edited travis.yml configuration. No longer deploying from Travis CI." />
+    <MESSAGE value="Setup Complete&#10;&#10;Updated version.rb YARDocumentation. Edited bundler and simplecov dependency statements. Depends on 'bundler' v2.1 and 'simplecov' v0." />
+    <option name="LAST_COMMIT_MESSAGE" value="Setup Complete&#10;&#10;Updated version.rb YARDocumentation. Edited bundler and simplecov dependency statements. Depends on 'bundler' v2.1 and 'simplecov' v0." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -586,26 +596,26 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="637" y="233" key="#com.intellij.ide.util.MemberChooser/0.23.1680.975@0.23.1680.975" timestamp="1583713791657" />
-    <state x="96" y="90" width="1462" height="795" key="CommitChangelistDialog2" timestamp="1587336764599">
+    <state x="96" y="90" width="1462" height="795" key="CommitChangelistDialog2" timestamp="1587336953591">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="96" y="90" width="1462" height="795" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1587336764599" />
-    <state width="1566" height="266" key="GridCell.Tab.0.bottom" timestamp="1587336779105">
+    <state x="96" y="90" width="1462" height="795" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1587336953591" />
+    <state width="1566" height="266" key="GridCell.Tab.0.bottom" timestamp="1587337369769">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1566" height="266" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1587336779105" />
-    <state width="1566" height="266" key="GridCell.Tab.0.center" timestamp="1587336779104">
+    <state width="1566" height="266" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1587337369769" />
+    <state width="1566" height="266" key="GridCell.Tab.0.center" timestamp="1587337369768">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1566" height="266" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1587336779104" />
-    <state width="1566" height="266" key="GridCell.Tab.0.left" timestamp="1587336779103">
+    <state width="1566" height="266" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1587337369768" />
+    <state width="1566" height="266" key="GridCell.Tab.0.left" timestamp="1587337369768">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1566" height="266" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1587336779103" />
-    <state width="1566" height="266" key="GridCell.Tab.0.right" timestamp="1587336779105">
+    <state width="1566" height="266" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1587337369768" />
+    <state width="1566" height="266" key="GridCell.Tab.0.right" timestamp="1587337369769">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1566" height="266" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1587336779105" />
+    <state width="1566" height="266" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1587337369769" />
     <state x="233" y="109" key="SettingsEditor" timestamp="1586534634958">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -622,16 +632,16 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="489" y="235" width="670" height="675" key="run.anything.popup/0.23.1680.975@0.23.1680.975" timestamp="1587149509310" />
-    <state x="489" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1587336662023">
+    <state x="489" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1587338366032">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="489" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1587336662023" />
+    <state x="489" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1587338366032" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/node_int@test_private_methods_declared.rcov" NAME="test_private_methods_declared Coverage Results" MODIFIED="1583783441189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="node_int" />
     <SUITE FILE_PATH="coverage/node_int@test_initialize_copy_declared.rcov" NAME="test_initialize_copy_declared Coverage Results" MODIFIED="1583782539544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="node_int" />
     <SUITE FILE_PATH="coverage/node_int@StateHelperTest.rcov" NAME="StateHelperTest Coverage Results" MODIFIED="1587149857974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="node_int" />
-    <SUITE FILE_PATH="coverage/node_int@NodeIntTest.rcov" NAME="NodeIntTest Coverage Results" MODIFIED="1587063885177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="node_int" />
+    <SUITE FILE_PATH="coverage/node_int@NodeIntTest.rcov" NAME="NodeIntTest Coverage Results" MODIFIED="1587337360546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="node_int" />
     <SUITE FILE_PATH="coverage/node_int@test_pub_m_dec.rcov" NAME="test_pub_m_dec Coverage Results" MODIFIED="1586971628253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="node_int" />
     <SUITE FILE_PATH="coverage/node_int@All_tests_in_test__node_int.rcov" NAME="All tests in test: node_int Coverage Results" MODIFIED="1587150089789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="node_int" />
   </component>

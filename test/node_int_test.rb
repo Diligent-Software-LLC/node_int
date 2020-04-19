@@ -44,7 +44,8 @@ class NodeIntTest < Minitest::Test
   # test_pub_m_dec().
   # @description
   #   clone_df, attach_back, attach_front, substitute, d, b, f, type, ==, ===,
-  #   inspect, detach_back, and detach_front method identifiers were declared.
+  #   inspect, detach_back, detach_front, and adapt method identifiers were
+  #   declared.
   def test_pub_m_dec()
 
     assert_includes(@pub_i_m, :shallow_clone)
@@ -61,6 +62,7 @@ class NodeIntTest < Minitest::Test
     assert_includes(@pub_i_m, :attach_front)
     assert_includes(@pub_i_m, :detach_back)
     assert_includes(@pub_i_m, :detach_front)
+    assert_includes(@pub_i_m, :adapt)
 
   end
 
