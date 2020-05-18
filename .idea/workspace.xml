@@ -76,7 +76,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9bf32022-2092-4723-9ad2-ee1f029c1f4c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/Changelog.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/node_int/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/node_int/version.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_int.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/node_int.gemspec" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,6 +154,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="ytplugin.issueListCompactView" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -352,7 +356,8 @@
       <workItem from="1586969862111" duration="4388000" />
       <workItem from="1587062584941" duration="3597000" />
       <workItem from="1587147944277" duration="4506000" />
-      <workItem from="1587336322713" duration="2578000" />
+      <workItem from="1587336322713" duration="3394000" />
+      <workItem from="1589759654213" duration="1305000" />
     </task>
     <task id="LOCAL-00001" summary="Setup&#10;&#10;Setup the package files.">
       <created>1583778648818</created>
@@ -543,10 +548,17 @@
       <option name="project" value="LOCAL" />
       <updated>1587338616371</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Prepare Deployment&#10;&#10;Updated Changelog.md.">
+      <created>1587338943241</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1587338943241</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
-        <option name="defaultSearch" value="project: Node Subsystem:{ No Subsystem} Component: Interface #{Prepare Deployment} Sprints: 7" />
+        <option name="defaultSearch" value="project: Node Subsystem:{ No Subsystem} Component: Interface Sprints: 9 State: {Setup}" />
         <username>admin</username>
       </YouTrack>
     </servers>
@@ -580,13 +592,13 @@
     <MESSAGE value="Prepare Deployment&#10;&#10;Fixed typo." />
     <MESSAGE value="Setup Complete&#10;&#10;Removed minitest-reporters dependency." />
     <MESSAGE value="Development Complete&#10;&#10;Added 'shallow_clone()', 'attach_back(n = nil)', 'attach_front(n = nil)', 'detach_back()', and 'detach_front()' method signatures. Added method declaration tests." />
-    <MESSAGE value="Prepare Deployment&#10;&#10;Updated Changelog.md." />
     <MESSAGE value="Setup Complete&#10;&#10;Bumped version." />
     <MESSAGE value="Development Complete&#10;&#10;'required' and included StateHelper. Added a StateHelper module. Added StateHelper method declaration tests." />
     <MESSAGE value="Prepare Deployment&#10;&#10;Updated Changelog.md. Edited travis.yml configuration. No longer deploying from Travis CI." />
     <MESSAGE value="Setup Complete&#10;&#10;Updated version.rb YARDocumentation. Edited bundler and simplecov dependency statements. Depends on 'bundler' v2.1 and 'simplecov' v0." />
     <MESSAGE value="Development Complete&#10;&#10;Edited YARDocumentation. Added an 'adapt()' method signature. Added an 'adapt()' method declaration assertion." />
-    <option name="LAST_COMMIT_MESSAGE" value="Development Complete&#10;&#10;Edited YARDocumentation. Added an 'adapt()' method signature. Added an 'adapt()' method declaration assertion." />
+    <MESSAGE value="Prepare Deployment&#10;&#10;Updated Changelog.md." />
+    <option name="LAST_COMMIT_MESSAGE" value="Prepare Deployment&#10;&#10;Updated Changelog.md." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -602,34 +614,34 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="637" y="233" key="#com.intellij.ide.util.MemberChooser/0.23.1680.975@0.23.1680.975" timestamp="1583713791657" />
-    <state x="96" y="90" width="1462" height="795" key="CommitChangelistDialog2" timestamp="1587338615564">
+    <state x="96" y="90" width="1462" height="795" key="CommitChangelistDialog2" timestamp="1587338942876">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="96" y="90" width="1462" height="795" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1587338615564" />
-    <state width="1566" height="266" key="GridCell.Tab.0.bottom" timestamp="1587337369769">
+    <state x="96" y="90" width="1462" height="795" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1587338942876" />
+    <state width="1566" height="266" key="GridCell.Tab.0.bottom" timestamp="1587344605206">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1566" height="266" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1587337369769" />
-    <state width="1566" height="266" key="GridCell.Tab.0.center" timestamp="1587337369768">
+    <state width="1566" height="266" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1587344605206" />
+    <state width="1566" height="266" key="GridCell.Tab.0.center" timestamp="1587344605206">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1566" height="266" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1587337369768" />
-    <state width="1566" height="266" key="GridCell.Tab.0.left" timestamp="1587337369768">
+    <state width="1566" height="266" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1587344605206" />
+    <state width="1566" height="266" key="GridCell.Tab.0.left" timestamp="1587344605204">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1566" height="266" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1587337369768" />
-    <state width="1566" height="266" key="GridCell.Tab.0.right" timestamp="1587337369769">
+    <state width="1566" height="266" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1587344605204" />
+    <state width="1566" height="266" key="GridCell.Tab.0.right" timestamp="1587344605206">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1566" height="266" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1587337369769" />
+    <state width="1566" height="266" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1587344605206" />
     <state x="233" y="109" key="SettingsEditor" timestamp="1586534634958">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="233" y="109" key="SettingsEditor/0.23.1680.975@0.23.1680.975" timestamp="1586534634958" />
-    <state x="424" y="250" key="Vcs.Push.Dialog.v2" timestamp="1587153787308">
+    <state x="424" y="250" key="Vcs.Push.Dialog.v2" timestamp="1587344564703">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="424" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1587153787308" />
+    <state x="424" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1587344564702" />
     <state x="423" y="235" width="816" height="550" key="find.popup" timestamp="1586529361172">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -638,10 +650,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="489" y="235" width="670" height="675" key="run.anything.popup/0.23.1680.975@0.23.1680.975" timestamp="1587149509310" />
-    <state x="489" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1587338696917">
+    <state x="489" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1589804941717">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="489" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1587338696917" />
+    <state x="489" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1589804941717" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/node_int@test_private_methods_declared.rcov" NAME="test_private_methods_declared Coverage Results" MODIFIED="1583783441189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="node_int" />

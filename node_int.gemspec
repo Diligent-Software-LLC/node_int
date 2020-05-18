@@ -6,9 +6,9 @@ Gem::Specification.new do |spec|
   spec.name                  = "node_int"
   spec.version               = NodeInt::VERSION
   spec.authors               = ["Diligent Software LLC"]
-  spec.email                 = ["diligentsoftwarellc@gmail.com"]
-  spec.summary               = %q{A doubly-linked Node abstract base class.}
-  spec.description           = %q{A doubly-linked Node abstract base class.
+  spec.email                 = ["contact@diligentsoftware.org"]
+  spec.summary               = %q{A doubly-linked Node library's interface.}
+  spec.description           = %q{A doubly-linked Node library's interface.
 Donations support continuous improvement and maintenance. The aim is a
 reliable, integrable, and endurable Node library. Make a donation at the
 project's collective page: https://opencollective.com/node. One-time and
