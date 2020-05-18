@@ -1,6 +1,6 @@
 require_relative 'test_helper'
 
-# node_int_test.
+# NodeIntTest.
 # @class_description
 #   Tests the Node interface.
 class NodeIntTest < Minitest::Test
@@ -11,7 +11,8 @@ class NodeIntTest < Minitest::Test
   # test_conf_doc_f_ex().
   # @description
   #   The .travis.yml, CODE_OF_CONDUCT.md, Gemfile, LICENSE.txt, README.md,
-  #   and .yardopts files exist.
+  #   .yardopts, .gitignore, Changelog.md, CODE_OF_CONDUCT.md,
+  #   node_int.gemspec, Gemfile.lock, and Rakefile files exist.
   def test_conf_doc_f_ex()
 
     assert_path_exists('.travis.yml')
@@ -20,6 +21,12 @@ class NodeIntTest < Minitest::Test
     assert_path_exists('LICENSE.txt')
     assert_path_exists('README.md')
     assert_path_exists('.yardopts')
+    assert_path_exists('.gitignore')
+    assert_path_exists('Changelog.md')
+    assert_path_exists('CODE_OF_CONDUCT.md')
+    assert_path_exists('node_int.gemspec')
+    assert_path_exists('Gemfile.lock')
+    assert_path_exists('Rakefile')
 
   end
 
@@ -43,53 +50,42 @@ class NodeIntTest < Minitest::Test
 
   # test_pub_m_dec().
   # @description
-  #   clone_df, attach_back, attach_front, substitute, d, b, f, type, ==, ===,
-  #   inspect, detach_back, detach_front, and adapt method identifiers were
+  #   'shallow_clone()', 'clone_df()', 'data=(dti = nil)', 'b()', 'f()',
+  #   '==(rhs = nil)', '===(rhs = nil)', and 'inspect()' method identifiers were
   #   declared.
   def test_pub_m_dec()
 
     assert_includes(@pub_i_m, :shallow_clone)
     assert_includes(@pub_i_m, :clone_df)
-    assert_includes(@pub_i_m, :substitute)
-    assert_includes(@pub_i_m, :d)
+    assert_includes(@pub_i_m, :data=)
     assert_includes(@pub_i_m, :b)
     assert_includes(@pub_i_m, :f)
-    assert_includes(@pub_i_m, :type)
     assert_includes(@pub_i_m, :==)
     assert_includes(@pub_i_m, :===)
     assert_includes(@pub_i_m, :inspect)
-    assert_includes(@pub_i_m, :attach_back)
-    assert_includes(@pub_i_m, :attach_front)
-    assert_includes(@pub_i_m, :detach_back)
-    assert_includes(@pub_i_m, :detach_front)
-    assert_includes(@pub_i_m, :adapt)
 
   end
 
   # test_prot_m_dec().
   # @description
-  #   back_ref, data_ref, and front_ref were declared.
+  #   'back_ref()' and 'front_ref()' were declared.
   def test_prot_m_dec()
-
     assert_includes(@prot_i_m, :back_ref)
-    assert_includes(@prot_i_m, :data_ref)
     assert_includes(@prot_i_m, :front_ref)
-
   end
 
   # test_priv_m_dec().
   # @description
-  #   The private method identifiers initialize, back, data, front,
-  #   back=, front=, and data= were declared.
+  #   The private method identifiers
+  #   'initialize(b_n = nil, dti = nil, f_n = nil)', 'back()', 'front()',
+  #   'back=(n = nil)', and 'front=(n = nil)' were declared.
   def test_priv_m_dec()
 
     assert_includes(@priv_i_m, :initialize)
     assert_includes(@priv_i_m, :back)
-    assert_includes(@priv_i_m, :data)
     assert_includes(@priv_i_m, :front)
     assert_includes(@priv_i_m, :back=)
     assert_includes(@priv_i_m, :front=)
-    assert_includes(@priv_i_m, :data=)
 
   end
 

@@ -8,13 +8,13 @@ require_relative 'helpers/state_helper'
 # @abstract
 # @class_description
 #   A Node abstract base class.
-# @attr back [Node]
-#   A 'back' node.
+# @attr back [Node, NilClass]
+#   A backward reference.
 # @attr data [DataType]
-#   Any instance. Refer the Data Library Homepage's
-#   {https://docs.diligentsoftware.org/data#data-types Data Types} section.
-# @attr front [Node]
-#   A 'front' reference.
+#   Any instance. Refer the Data Library Homepage
+#   {https://docs.diligentsoftware.org/data#classification Classifcation}.
+# @attr front [Node, NilClass]
+#   A forward reference.
 class NodeInt
 
   include StateHelper
@@ -23,12 +23,12 @@ class NodeInt
   # @description
   #   Initializes a Node instance.
   # @param b_n [Node]
-  #   The back assignment.
+  #   The 'back' assignment.
   # @param dti [DataType]
   #   Any instance. Refer the Data Library Homepage's
-  #   {https://docs.diligentsoftware.org/data#data-types Data Types} section.
+  #   {https://docs.diligentsoftware.org/data#classification Classification}.
   # @param f_n [Node]
-  #   The front assignment.
+  #   The 'front' assignment.
   # @return [Node]
   #   An instance.
   def initialize(b_n = nil, dti = nil, f_n = nil)
@@ -38,30 +38,30 @@ class NodeInt
   # @description
   #   Shallowly clones.
   # @return [Node]
-  #   self's shallow clone. The DataType type instance references are
-  #   identical. All other references are different.
+  #   A clone. The clone and self are unidentical, and share the same
+  #   attribute references.
   def shallow_clone()
   end
 
   # clone_df()
   # @description
-  #   Clones. The cloned attributes are frozen.
+  #   Deeply clones.
   # @return [Node]
-  #   A clone. The return is equivalent and not identical. Mutating the
-  #   attributes' references raises a FrozenError.
+  #   A deep clone. No Node references are identical. Data references are
+  #   identical.
   def clone_df()
   end
 
-  # substitute(dti = nil).
+  # data=(dti = nil).
   # @description
-  #   Substitutes data.
+  #   Sets 'data'.
   # @param dti [DataType]
-  #   data's setting.
+  #   The assignment object.
   # @return [DataType]
   #   The argument.
   # @raise [DataError]
-  #   In the case the argument's type is anything other than a DataType type.
-  def substitute(dti = nil)
+  #   In the case the argument is any type other than a DataType type instance.
+  def data=(dti = nil)
   end
 
   # b().
@@ -72,12 +72,12 @@ class NodeInt
   def b()
   end
 
-  # d().
+  # data().
   # @description
   #   Gets data's reference.
   # @return [DataType]
   #   data's reference, frozen.
-  def d()
+  def data()
   end
 
   # f().
@@ -86,14 +86,6 @@ class NodeInt
   # @return [Node, NilClass]
   #   front's reference, frozen.
   def f()
-  end
-
-  # type().
-  # @description
-  #   Gets the data's type.
-  # @return [Class]
-  #   The instance's type.
-  def type()
   end
 
   # ==(rhs = nil).
@@ -125,50 +117,6 @@ class NodeInt
   def inspect()
   end
 
-  # attach_back(n = nil).
-  # @description
-  #   Attaches a back Node.
-  # @param n [Node]
-  #   An attachment.
-  # @return [NilClass]
-  #   nil.
-  def attach_back(n = nil)
-  end
-
-  # attach_front(n = nil).
-  # @description
-  #   Attaches a front node.
-  # @param n [Node]
-  #   An attachment.
-  # @return [NilClass]
-  #   nil.
-  def attach_front(n = nil)
-  end
-
-  # detach_back().
-  # @description
-  #   Sets back nil.
-  # @return [NilClass]
-  #   nil.
-  def detach_back()
-  end
-
-  # detach_front().
-  # @description
-  #   Sets front nil.
-  # @return [NilClass]
-  #   nil.
-  def detach_front()
-  end
-
-  # adapt().
-  # @description
-  #   Instantiates an adapter.
-  # @return [NodeAdapter]
-  #   An adapter instance.
-  def adapt()
-  end
-
   protected
 
   # back_ref().
@@ -177,14 +125,6 @@ class NodeInt
   # @return [Node, NilClass]
   #   The reference.
   def back_ref()
-  end
-
-  # data_ref().
-  # @description
-  #   Gets data's reference.
-  # @return [DataType]
-  #   data's reference.
-  def data_ref()
   end
 
   # front_ref().
@@ -197,27 +137,19 @@ class NodeInt
 
   private
 
-  # data().
-  # @description
-  #   Gets data's reference.
-  # @return [DataType]
-  #   The reference.
-  def data()
-  end
-
   # back().
   # @description
   #   Gets back's reference.
-  # @return back [Node, NilClass]
-  #   The reference.
+  # @return [Node, NilClass]
+  #   back's reference.
   def back()
   end
 
   # front().
   # @description
   #   Gets front's reference.
-  # @return front [Node, NilClass]
-  #   The reference.
+  # @return [Node, NilClass]
+  #   front's reference.
   def front()
   end
 
@@ -243,18 +175,6 @@ class NodeInt
   # @raise [NodeError]
   #   In the case the argument is any type other than Node.
   def front=(n = nil)
-  end
-
-  # data=(dti = nil).
-  # @description
-  #   Sets data.
-  # @param dti [DataType]
-  #   The assignment instance.
-  # @return [DataType]
-  #   The argument.
-  # @raise [DataError]
-  #   In the case the argument is any type other than a DataType instance.
-  def data=(dti = nil)
   end
 
 end
