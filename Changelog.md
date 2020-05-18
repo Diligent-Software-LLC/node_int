@@ -1,5 +1,26 @@
 # Changelog
 
+## v3.0.0, 2020-05-18
+
+### Added
+
+- Test coverage.
+
+### Edited
+
+- Gem Specification email, summary, and description.
+- README.md's repository description.
+- Documentation.
+- 'data=(dti = nil)' privacy. 'data=(dti = nil)' is public.
+- 'data()' privacy. 'data()' is public.
+- Deleted 'type()'.
+- Deleted 'attach_back(n = nil)', 'attach_front(n = nil)', 'detach_back()', 
+'detach_front()', 'adapt()', and 'data_ref()'.
+
+### Fixed
+
+- README.md's Installation link.
+
 ## v2.3.0, 2020-04-19
 
 ### Added

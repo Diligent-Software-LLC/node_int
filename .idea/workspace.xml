@@ -76,10 +76,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9bf32022-2092-4723-9ad2-ee1f029c1f4c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/node_int.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/node_int.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/node_int_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/node_int_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/Changelog.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -357,7 +354,7 @@
       <workItem from="1587062584941" duration="3597000" />
       <workItem from="1587147944277" duration="4506000" />
       <workItem from="1587336322713" duration="3394000" />
-      <workItem from="1589759654213" duration="3782000" />
+      <workItem from="1589759654213" duration="4309000" />
     </task>
     <task id="LOCAL-00001" summary="Setup&#10;&#10;Setup the package files.">
       <created>1583778648818</created>
@@ -562,10 +559,17 @@
       <option name="project" value="LOCAL" />
       <updated>1589805254372</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Development Complete&#10;&#10;Edited documentation. Edited 'data=(dti = nil)' privacy. 'data=(dti = nil)' is public. Edited 'data()' privacy. 'data()' is public. Deleted 'type()'. Deleted 'attach_back(n = nil)', 'attach_front(n = nil)', 'detach_back()', 'detach_front()', 'adapt()', and 'data_ref()'. Added test coverage.">
+      <created>1589807771827</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1589807771827</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
-        <option name="defaultSearch" value="project: Node Subsystem:{ No Subsystem} Component: Interface Sprints: 9 State: {Development}" />
+        <option name="defaultSearch" value="project: Node Subsystem:{ No Subsystem} Component: Interface Sprints: 9 State: {Prepare Deployment}" />
         <username>admin</username>
       </YouTrack>
     </servers>
@@ -606,7 +610,8 @@
     <MESSAGE value="Development Complete&#10;&#10;Edited YARDocumentation. Added an 'adapt()' method signature. Added an 'adapt()' method declaration assertion." />
     <MESSAGE value="Prepare Deployment&#10;&#10;Updated Changelog.md." />
     <MESSAGE value="Setup Complete&#10;&#10;Bumped Minor Version. Edited Gem Specification email, summary, and description. Edited README.md's repository description and Installation link." />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup Complete&#10;&#10;Bumped Minor Version. Edited Gem Specification email, summary, and description. Edited README.md's repository description and Installation link." />
+    <MESSAGE value="Development Complete&#10;&#10;Edited documentation. Edited 'data=(dti = nil)' privacy. 'data=(dti = nil)' is public. Edited 'data()' privacy. 'data()' is public. Deleted 'type()'. Deleted 'attach_back(n = nil)', 'attach_front(n = nil)', 'detach_back()', 'detach_front()', 'adapt()', and 'data_ref()'. Added test coverage." />
+    <option name="LAST_COMMIT_MESSAGE" value="Development Complete&#10;&#10;Edited documentation. Edited 'data=(dti = nil)' privacy. 'data=(dti = nil)' is public. Edited 'data()' privacy. 'data()' is public. Deleted 'type()'. Deleted 'attach_back(n = nil)', 'attach_front(n = nil)', 'detach_back()', 'detach_front()', 'adapt()', and 'data_ref()'. Added test coverage." />
   </component>
   <component name="WindowStateProjectService">
     <state x="424" y="175" key="#Servers" timestamp="1583774066560">
@@ -621,10 +626,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="637" y="233" key="#com.intellij.ide.util.MemberChooser/0.23.1680.975@0.23.1680.975" timestamp="1583713791657" />
-    <state x="59" y="52" width="1566" height="900" key="CommitChangelistDialog2" timestamp="1589805253963">
+    <state x="59" y="52" width="1566" height="900" key="CommitChangelistDialog2" timestamp="1589807771556">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="59" y="52" width="1566" height="900" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1589805253963" />
+    <state x="59" y="52" width="1566" height="900" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1589807771556" />
     <state width="1566" height="269" key="GridCell.Tab.0.bottom" timestamp="1589807007361">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -657,10 +662,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="489" y="235" width="670" height="675" key="run.anything.popup/0.23.1680.975@0.23.1680.975" timestamp="1587149509310" />
-    <state x="489" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1589807073476">
+    <state x="489" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1589807850773">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="489" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1589807073476" />
+    <state x="489" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1589807850773" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/node_int@test_private_methods_declared.rcov" NAME="test_private_methods_declared Coverage Results" MODIFIED="1583783441189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="node_int" />
